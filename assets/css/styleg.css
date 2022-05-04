@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container {display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 100px 1fr 100px  100px;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Navegador Navegador Navegador "
+      "Retratos Paisajes  Vida-silvestre "
+      "Retratos Paisajes  Vida-silvestre "
+      "footer footer footer ";
+  }
+.Navegador{ 
+grid-area: Navegador;      
+}
+.nav{
+    background-color:rgb(121, 218, 232);
+    height: 75px;       
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+}
+.logo{
+    color: white;
+    font-size: 35px;
+     padding: 0 80px;
+    font-weight: bold;
+}
+.nav .itemsmenu{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+.nav .itemsmenu li{
+margin: 10px; 
+}
+.nav .itemsmenu li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+    padding: 10px 10px;
+}
+.nav .itemsmenu li:hover,li.active {
+    background-color: rgba(0, 0, 0, .3);
+    transition: .4s;
+} 
+.retratos { 
+    grid-area: Retratos;
+    display: column;  
+}
+.retratos .primeraimagenr{
+padding: 30px;
+margin: 30px;
+}
+.retratos .segundaimagenr{
+    padding: 30px;
+    margin: 30px;
+    }
+.paisajes { 
+    grid-area: Paisajes;
+    display: column;
+}
+.paisajes .primeraimagenp{
+    padding: 30px;
+    margin: 30px;
+}
+.paisajes .segundaimagenp{
+    padding: 30px;
+    margin: 50px;
+}
+
+.vida-silvestre { 
+    grid-area: Vida-silvestre;
+    display: column;
+}
+.vida-silvestre .primeraimagenvs{
+    padding: 50px;
+    margin: 40px;
+}
+.vida-silvestre .segundaimagenvs{
+    padding: 30px;
+    margin: 30px;
+}
+
+.footer { 
+    grid-area: footer;
+    display: flex;
+    padding: 35px;
+    margin: 35px;
+}
+.footer .textoredes{
+    display: block;
+    text-align: center;
+}
+h2{
+    font-family: cursive;
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+}
+.footer .textoredes button{
+
+    margin: 20px;
+    background-color:rgb(10, 161, 221); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+    .footer .textoredes button:hover {
+        background-color:rgb(33, 85, 205); 
+        color: white;
+    transition-duration:2s;
+    }
+.footer .iconos-redes-sociales{
+display:flex;
+padding: 30px;
+margin: 30px;
+}
+.footer .iconos-redes-sociales .twitter{
+    padding: 10px;
+    margin: 10px;
+}
+.footer .iconos-redes-sociales .instagram{
+    padding: 10px;
+    margin: 10px;
+    } 
+.footer .iconos-redes-sociales .facebook{
+    padding: 10px;
+    margin: 10px;      
+}  
+.fondo{
+background-color:rgb(232, 249, 253);
+
+}

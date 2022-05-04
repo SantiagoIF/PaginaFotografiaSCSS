@@ -1,0 +1,41 @@
+.Texto-y-ver-mas {
+  grid-area: Texto-y-ver-mas;
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.Texto-y-ver-mas button {
+  margin: 20px;
+  background-color: #0aa1dd;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.Texto-y-ver-mas button:hover {
+  background-color: #2155cd;
+  color: white;
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s;
+}
+
+.Img2 {
+  grid-area: Img2;
+  margin: 10px;
+}
+
+.Img1 {
+  grid-area: Img1;
+  margin: 10px;
+}
+/*# sourceMappingURL=textoyvermas.css.map */

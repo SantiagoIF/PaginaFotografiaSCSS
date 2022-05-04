@@ -1,0 +1,25 @@
+@import "_variables";
+@import "_nav";
+@import "_footer";
+@import "_textoyvermas";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    grid-auto-flow:row;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Navegador Navegador Navegador"
+      "Texto-y-ver-mas Img1 Img2"
+      "Footer Footer Footer";
+  }
+.fondo{
+background-color:rgb(232, 249, 253);
+  }

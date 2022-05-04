@@ -1,0 +1,51 @@
+.Footer {
+    grid-area: Footer;
+    display: flex;
+    padding: 35px;
+    margin: 35px;
+}
+.Footer .textoredes{
+    display: block;
+    text-align: center;
+
+}
+h2{
+    font-family: cursive;
+    font-size: 25px;
+    margin: 20px;
+}
+.Footer .textoredes button{
+ 
+    margin: 20px;
+    
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: $colorparalosbotones;
+    }
+    .Footer .textoredes button:hover {
+        background-color:$botonhover;
+        color: white;
+    transition-duration:2s;
+    }
+.Footer .iconos-redes-sociales{
+display:flex;
+padding: 30px;
+margin: 30px;
+}
+.Footer .iconos-redes-sociales .twitter{
+    padding: 10px;
+    margin: 10px;
+}
+.Footer .iconos-redes-sociales .instagram{
+    padding: 10px;
+    margin: 10px;
+    }
+.Footer .iconos-redes-sociales .facebook{
+    padding: 10px;
+    margin: 10px;      
+}  
